@@ -21,6 +21,7 @@
 - I coded on the VScode of my machine using SSH connection to the VM and did the tests on the VM itself.
 - On personal goal on this project was to get player commands without using if, else, or switch.
 - And again on this project I am using the functional programming to guide my code structure. Not perfect but getting better.
+- All images of the game are made using xpm files. I created png files and converted to xpm. Some simple edits I made on the xpm itself.
 - The main character credits goes to [chiken_art](https://opengameart.org/content/lpc-chicken-rework). I just edit a litte to fit my game.
 <p></p>
 <a href = "#content">📋</a>

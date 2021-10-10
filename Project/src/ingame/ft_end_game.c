@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_free.c                                          :+:      :+:    :+:   */
+/*   ft_end_game.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbonini- <fbonini-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/01 17:01:23 by fbonini-          #+#    #+#             */
-/*   Updated: 2021/09/14 15:10:09 by fbonini-         ###   ########.fr       */
+/*   Updated: 2021/10/10 14:48:49 by fbonini-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,7 @@ void	ft_destroy_game(t_mem *mem)
 		mlx_destroy_window(mem->server->mlx, mem->server->win);
 	if (mem->server->mlx)
 		mlx_destroy_display(mem->server->mlx);
+	free(mem->server->mlx);
 }
 
 void	ft_free_map_design(t_mem *mem)
@@ -62,6 +63,10 @@ void	ft_free_game(t_mem *mem)
 		free(mem->player);
 	if (mem->item_list)
 		free(mem->item_list);
+	if (mem->gate)
+		free(mem->gate);
+	if (mem->enemy_list)
+		free(mem->enemy_list);
 	if (mem->keys)
 		free(mem->keys);
 	if (mem->actions)

@@ -55,7 +55,7 @@
 
 <a name="function"/> <h2> 📚 Functionality </h2> </a>
 
-⚠️🚧 I will add a flow chart of the basic logic of the game and a gif of the game working ⚠️🚧
+![Game Gif](https://github.com/GitFlaviobc/so_long/blob/main/Images/SoLong.gif)
 
 <p></p>
 <a href = "#content">📋</a>

@@ -50,10 +50,10 @@ $(MLX):
 	make -C $(MLX_DIR)
 
 run: $(NAME)
-	sudo ./$(NAME) maps/map.ber
+	./$(NAME) maps/map.ber
 
 leak: $(NAME)
-	sudo $(VALGRIND) ./$(NAME) maps/map.ber
+	$(VALGRIND) ./$(NAME) maps/map.ber
 
 clean:
 	$(RM) $(OBJ)

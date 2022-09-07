@@ -155,7 +155,7 @@ make leak
 <a href = "#content">📋</a>
 
 <a name="update"/> <h2> 🆙 Updates </h2> </a>
-- The code I sent to evaluation will be kept the same. Any update will be on the update folder.⚠️🚧
+⚠️🚧
 <p></p>
 <a href = "#content">📋</a>
 
